@@ -1,0 +1,11 @@
+.product{
+    margin: 15px;
+    padding: 15px;
+    background-color: gainsboro;
+    border-radius: 15px;
+}
+.product img{
+    width: 286px;
+    height: 286px;
+    border-radius: 15px;
+}
