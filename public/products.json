@@ -1,0 +1,56 @@
+[
+  {
+    "id": "623df99c695ae0bdf819d947",
+    "name": "Carla Crawford",
+    "price": 120000,
+    "img": "images/bike-1.jpg"
+  },
+  {
+    "id": "623df99c95220f70dd608ca3",
+    "name": "Stanley Scott",
+    "price": 125000,
+    "img": "images/bike-2.jpg"
+  },
+  {
+    "id": "623df99cad347c3cdfece11f",
+    "name": "Reyes Hutchinson",
+    "price": 200000,
+    "img": "images/bike-3.jpg"
+  },
+  {
+    "id": "623df99cf87f99bb125306dc",
+    "name": "Gabrielle Wynn",
+    "price": 150000,
+    "img": "images/bike-4.jpg"
+  },
+  {
+    "id": "623df99c53ccc44a2dd1f0ac",
+    "name": "Farrell Schmidt",
+    "price": 132500,
+    "img": "images/bike-5.jpg"
+  },
+  {
+    "id": "623df99c79dfdff2d70db28e",
+    "name": "Michelle Wall",
+    "price": 97000,
+    "img": "images/bike-6.jpg"
+  },
+  {
+    "id": "623df99cce10d5f863e9a483",
+    "name": "Nellie Lamb",
+    "price": 210000,
+    "img": "images/bike-7.jpg"
+  },
+  {
+    "id": "623df99ca72d1343206e84df",
+    "name": "Deana Wagner",
+    "price": 183000,
+    "img": "images/bike-8.jpg"
+  },
+  {
+    "id": "623df99ca72d1343206e84dg",
+    "name": "Deana Jesinda",
+    "price": 80000,
+    "img": "images/bike-9.jpg"
+  }
+]
