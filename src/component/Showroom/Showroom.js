@@ -38,7 +38,6 @@ const Showroom = () => {
                         key={product.id}
                         product={product}
                         addProductToCart={addProductToCart}
-
                     ></Product>)
                 }
             </div>
