@@ -1,11 +1,11 @@
 import React from 'react';
 import './Cart.css';
 
-const Cart = (props) => {
+const Cart = ({ cart }) => {
     return (
         <div className='cart'>
             <h4>Order Details</h4>
-            <p>Selected Items: {Cart.length} </p>
+            <p>Selected Items: {cart.length} </p>
             <div className='btn-choose'>
                 <button>
                     <p>Choose One</p>
