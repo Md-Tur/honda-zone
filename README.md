@@ -1,6 +1,6 @@
 # Honda Zone
 
-## Live site link 
+## [Live site link] 
 This project is created with react. it's responsive site for desktop & mobile. From here an user can choose his dream bike & can buy it. Here is live site link of this project: [https://euphonious-paletas-6bc295.netlify.app/](https://euphonious-paletas-6bc295.netlify.app/).
 
 ## Available Scripts
