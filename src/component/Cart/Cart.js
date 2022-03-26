@@ -24,7 +24,6 @@ const Cart = ({ cart, bestOption, best, clearCart }) => {
                 </div>
             </div>
             <div className='best'>
-                <img src={best.img} alt="" />
                 <p>{best.name}</p>
             </div>
         </div>

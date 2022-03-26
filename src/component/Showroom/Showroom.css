@@ -21,6 +21,9 @@
 }
 
 @media screen and (max-width:688px) {
+    .showroom-container{
+        display: block;
+    }
     .product-container{
         grid-template-columns: 1fr;
     }
