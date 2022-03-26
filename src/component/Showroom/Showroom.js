@@ -6,6 +6,7 @@ import './Showroom.css';
 const Showroom = () => {
     const [products, setProducts] = useState([]);
     const [cart, setCart] = useState([]);
+    const [best, setBest] = useState([]);
 
     useEffect(() => {
         fetch('products.json')
@@ -18,6 +19,17 @@ const Showroom = () => {
         setCart(newCart);
     }
 
+    const bestOption = () => {
+        const best = [...cart];
+        const random = Math.floor(Math.random() * best.length);
+        setBest(best[random]);
+    }
+
+    const clearCart = () => {
+        setCart([]);
+        setBest([]);
+    }
+
     return (
         <div className='showroom-container'>
             <div className="product-container">
@@ -26,12 +38,13 @@ const Showroom = () => {
                         key={product.id}
                         product={product}
                         addProductToCart={addProductToCart}
+
                     ></Product>)
                 }
             </div>
 
             <div className="cart-container">
-                <Cart cart={cart}></Cart>
+                <Cart cart={cart} bestOption={bestOption} best={best} clearCart={clearCart}></Cart>
             </div>
         </div>
     );

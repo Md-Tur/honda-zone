@@ -14,10 +14,12 @@ const Product = (props) => {
                 <h3>Name: {name}</h3>
                 <h5>Price: ${price}</h5>
             </div>
-            <button className='btn-cart' onClick={() => addProductToCart(product)}>
-                <p className='btn-text'>Buy Now</p>
-                <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
-            </button>
+            <div>
+                <button className='btn-cart' onClick={() => addProductToCart(product)}>
+                    <p className='btn-text'>Buy Now</p>
+                    <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
+                </button>
+            </div>
         </div>
     );
 };
